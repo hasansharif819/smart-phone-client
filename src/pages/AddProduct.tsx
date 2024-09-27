@@ -57,10 +57,10 @@ const AddProduct = ({ defaultValues, title, action, id }: TAddProductProps) => {
 	// Capture the file using beforeUpload in Ant Design's Upload component
 	let image = '';
 	const handleFileChange = (info: any) => {
-		const imgBBLink = "4fb1911cd7fea07ca539c23c89d490db";
+		// const imgBBLink = "4fb1911cd7fea07ca539c23c89d490db";
 		const formData = new FormData();
 		formData.append("image", info.file.originFileObj);
-		const url = `https://api.imgbb.com/1/upload?key=${imgBBLink}`;
+		const url = `https://api.imgbb.com/1/upload?key=${import.meta.env.VITE_IMGBB_API_KEY}`;
 
 		fetch(url, {
 			method: "POST",
