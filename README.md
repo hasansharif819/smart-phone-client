@@ -33,5 +33,5 @@ Now you can do all the CRUD operations that was required for the assignment. I w
 
 #### This application is deployed on firebase
 
-- live link ↦ <https://second-dream-gadgets.web.app/>
-- server link ↦ <https://second-dream-server.vercel.app/>
+- live link ↦ <https://smartphone-iota.vercel.app/>
+- server link ↦ <https://github.com/hasansharif819/smart-phone-server>
