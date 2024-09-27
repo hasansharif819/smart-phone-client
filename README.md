@@ -1,12 +1,11 @@
 ## Instructions on how to run the application locally 📝
 
 - 1️⃣ Clone the repository to your machine if you have the access. Use this link to do it.
-  ↦ <https://github.com/Porgramming-Hero-web-course/l2-b2-assignment-6-fronten-gsjoy24.git>
 - 2️⃣ Open the project in vs code and create a file named .env.local in the root of the folder.
 - 3️⃣ Add the code bellow in the .env.local file
 
 ```
-VITE_SERVER_URL=https://second-dream-server.vercel.app/api/
+VITE_SERVER_URL=https://smart-phone-server-three.vercel.app/api/
 VITE_IMGBB_API_KEY=""
 ```
 
@@ -18,16 +17,16 @@ VITE_IMGBB_API_KEY=""
 
 ```
 <!-- for admin -->
-email :superAdmin@gmail.com
-password : superAdmin0
+email :hs.sharif819@gmail.com
+password : SuperAdmin
 
 <!-- for manager -->
 email : manager@gmail.com
-password : ManagerPr0
+password : A123456a
 
 <!-- for user -->
 email :user@gmail.com
-password : UserPr00
+password : A123456a
 ```
 
 Now you can do all the CRUD operations that was required for the assignment. I will recommend you to see the package.json file to see all the commands.
